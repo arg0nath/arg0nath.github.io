@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Vasileios Makris CV">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Vasileios Makris">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>Vasileios Makris</title>
+    <link rel="manifest" href="manifest.json">
+   
+  <style>
+
+      body {
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #313132; /* Dark gray background color */
+          overflow: hidden;
+      }
+
+    .loading {  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+     
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .loader {
+      /* border and border-top should match the app theme */
+      border-bottom: 6px solid #5c2bab;
+      border-top: 4px solid #fda23e;
+      border-radius: 50%;
+      /* similar size to CircularProgressIndicator */
+      width: 50px;
+      height: 50px;
+      /* similar animation to CircularProgressIndicator */
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body style="overflow: hidden;">
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
