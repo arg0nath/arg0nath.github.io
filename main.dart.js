@@ -74483,8 +74483,11 @@ i.aI()
 s=i.c
 s.toString
 r=t.v
-s=i.d=A.f6(A.aZ(s,!1,r).gaW().y,!0,t.Tm)
-for(q=s.length,p=t.p,o=0;o<s.length;s.length===q||(0,A.x)(s),++o){n=s[o]
+q=i.d=A.f6(A.aZ(s,!1,r).gaW().y,!0,t.Tm)
+s=q.length
+p=t.p
+o=0
+for(;o<q.length;q.length===s||(0,A.x)(q),++o){n=q[o]
 m=i.e
 if(m===$)m=i.e=A.c([],p)
 m.push(new A.AS(n.a,!1,null))}s=i.c
@@ -74493,7 +74496,7 @@ l=A.f6(A.aZ(s,!1,r).gaW().x,!0,t.ES)
 for(s=l.length,o=0;o<s;++o){k=l[o]
 j=new A.xC(k,!1,null)
 r=k.c
-if(r===B.cq){m=i.r;(m===$?i.r=A.c([],p):m).push(j)}else if(r===B.P){m=i.f;(m===$?i.f=A.c([],p):m).push(j)}}i.x=A.bE(["Soft Skills"],t.N)},
+if(r===B.cq){q=i.r;(q===$?i.r=A.c([],p):q).push(j)}else if(r===B.P){q=i.f;(q===$?i.f=A.c([],p):q).push(j)}}i.x=A.bE(["Soft Skills"],t.N)},
 K(a){var s,r,q,p,o,n,m=this,l=null,k=A.B(a).ax.k3
 k=A.aY(120,k.F()>>>16&255,k.F()>>>8&255,k.F()&255)
 s=A.B(a)
